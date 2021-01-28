@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/tablet.css">
+  <link rel="stylesheet" media="screen and (max-width: 415px)" href="css/mobile.css">
+
+  <!--External-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <title>WeFix UF | Dator reparation</title>
+</head>
+
+<body id="Home">
+  <nav>
+    <h1 id="logo"><span class="text-primary"><i class="fas fa-tools"></i> We</span>Fix UF</h1>
+    <ul>
+      <li><a href="#Home">Hem</a></li>
+      <li><a href="#what-we-do">Vad vi gör</a></li>
+      <li><a href="#who-we-are">Vem är vi</a></li>
+      <li><a href="#contact-us">Kontakta oss</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <div id="showcase">
+      <h1>WeFix</h1>
+      <p>Vi reparerar alla typer av datorer Mac datorer och Stationära PC, oberoende om det är mjuk eller hårdvaruproblem.</p>
+      <button type="button" href="#What" name="Read More">Läs mer</button>
+    </div>
+  </header>
+
+  <section id="what-we-do">
+    <div class="container">
+      <h2><span class="text-primary">Vad vi kan</span> erbjuda</h2>
+      <div class="boxes">
+        <div class="box">
+          <i class="fas fa-search fa-3x"></i>
+          <h3>Analysera din enhet</h3>
+          <p>Vi kommer omgående att göra en analys av ditt datorproblem, ge dig
+            alternativ och prisvärda kostnads förslag. Men oftast bjuder vi på
+            felsökning. Påmin oss om det :)
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hdd fa-3x"></i>
+          <h3>Installation av hårdvara och mjukvara</h3>
+          <p>Låt oss göra en sak. Clean installation, då först blir det fart och stabilt. eller
+            om du förkorat dina filer och data? Vi hjälper dig lätt och snabbt samma dag.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-tools fa-3x"></i>
+          <h3>Professionel datoreparation</h3>
+          <p>Vi fixar alla typer av datorproblem! oftast inom 24 timmar. Från mjukvara till hårdvara!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="who-we-are">
+    <div id="who-we-are-img">
+    </div>
+    <div id="who-we-are-container">
+      <h2><span class="text-primary">Vem</span> är vi</h2>
+      <p>Vi är fokuserat på att leverera den bästa service för våra kunder.</p>
+      <h3>Vårt grupp</h3>
+      <ul>
+        <li>Smith: CEO</li>
+        <li>Shannon Johnson: CFO</li>
+        <li>John Corbit: Lead Accountant</li>
+        <li>Janet Williams: Investment Manager</li>
+        <li>Kara Jackson: Senior Accountant</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="clients">
+    <div class="container">
+      <h2><span class="text-primary">Våra</span>Klienter</h2>
+      <div class="items">
+        <img src="./img/logos/logo1.png" alt="">
+        <img src="./img/logos/logo2.png" alt="">
+        <img src="./img/logos/logo3.png" alt="">
+        <img src="./img/logos/logo4.png" alt="">
+        <img src="./img/logos/logo5.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-us">
+    <div class="contact-us-container">
+      <h2>Kontakta oss</h2>
+      <p>Använd formuläret nedan för att kontakta oss.</p>
+
+      <form>
+        <div class="form-group">
+          <label for="Name">Namn</label>
+          <input type="text" name="Name" value="">
+        </div>
+      </form>
+
+      <form>
+        <div class="form-group">
+          <label for="Email">Mejl</label>
+          <input type="text" name="Enter Email" value="">
+        </div>
+      </form>
+
+      <form>
+        <div class="form-group">
+          <label for="Number">Telefonummer</label>
+          <input type="text" name="Phone Number" value="">
+        </div>
+      </form>
+
+      <form>
+        <div class="form-group">
+          <label for="Text">Text</label>
+          <textarea name="Text" rows="8" cols="80"></textarea>
+        </div>
+        <button type="button" name="Send">Skicka</button>
+      </form>
+    </div>
+    <div id="map"></div>
+  </section>
+
+  <footer>
+    <p>Copyright © 2021, WeFixUF, All Rights Reserved</p>
+  </footer>
+
+  <!--Scripts-->
+  <script src="js/main.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8CmsPvFEcDMcL2srFYLHj6forEyp5FDE&callback=initMap" async defer></script>
+
+
+</body>
+</html>
